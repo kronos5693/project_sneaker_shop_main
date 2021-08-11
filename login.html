@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario Login</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    
+    <body>
+    
+        <div id="wrapper">
+            <form class="form-signin" action="php/login.php" method="POST" accept-charset="utf-8">
+                <div class="icon d-flex align-items-center justify-content-center">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h2 class="text-center form-signin-heading">USUARIO</h2>
+                <input type="text" class="form-control" name="username" placeholder="Usuario o E-mail" required autofocus>
+                <br>
+                <input type="password" class="form-control" name="password" placeholder="Contraseña" required> <br>
+                <br>
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
+            </form>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  
+    </body>
+
+</html>
